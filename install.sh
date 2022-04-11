@@ -12,6 +12,6 @@ if [ ! -f /usr/bin/yay ]; then
   cd ..
   rm -rf yay
 fi
-yay -Sy --needed --noconfirm - < pkgs.txt
+yay -Sy --needed  - < pkgs.txt
 cp -rvf .config/* ~/.config/
 cp -rvf .themes/* ~/.themes/
