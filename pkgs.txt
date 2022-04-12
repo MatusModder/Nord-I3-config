@@ -35,6 +35,7 @@ betterlockscreen
 bind
 binutils
 bison
+blesh
 bluedevil
 blueman
 bluez
@@ -68,6 +69,7 @@ cmake
 confuse
 convertlit
 coreutils
+cowsay
 cpio
 crossover
 cryptsetup

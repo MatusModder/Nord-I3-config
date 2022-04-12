@@ -12,10 +12,11 @@ if [ ! -f /usr/bin/yay ]; then
   cd ..
   rm -rf yay
 fi
+sudo systemctl enable --now sddm
 yay -Sy --needed  - < pkgs.txt
 cp -rvf .config/* ~/.config/
 cp -rvf .themes/* ~/.themes/
-
+cp -rvf .bashrc ~/
 powermenu () {
 	echo "Copying powermenu binary to /usr/local/bin"
 	sudo cp $HOME/.config/i3/$(ls | grep powermenu)/rofi-power-menu /usr/local/bin
