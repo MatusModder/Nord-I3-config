@@ -199,7 +199,8 @@
 	smart_gaps on
 	gaps inner 15
 	gaps outer 15
-exec_always picom
+exec_always autotiling 
+exec picom --experimental-backends --backend glx --xrender-sync-fence
 exec_always nitrogen --restore
 exec_always nm-applet
 exec_always lxsession -e Arch
