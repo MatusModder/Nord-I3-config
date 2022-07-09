@@ -27,7 +27,6 @@ auto-cpufreq
 autoconf
 automake
 avahi
-b43-fwcutter
 base
 bash
 bc
@@ -578,8 +577,6 @@ linux-atm
 linux-firmware
 linux-firmware-whence
 linux-headers
-linux-lts
-linux-lts-headers
 livecd-sounds
 llvm-libs
 lm_sensors
@@ -650,7 +647,6 @@ nspr
 nss
 ntfs-3g
 numactl
-nvidia-dkms
 nvidia-utils
 nvme-cli
 obs-studio
