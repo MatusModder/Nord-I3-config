@@ -1,0 +1,4 @@
+[TimeZones]
+LocalZone=Europe/Bratislava
+ZoneinfoDir=/usr/share/zoneinfo
+Zonetab=/usr/share/zoneinfo/zone.tab

@@ -1,0 +1,203 @@
+[2022-07-08 15:35:18.810] [silly] background.js loaded.
+2022/07/08 15:35:18:814 loading database
+2022/07/08 15:35:18:814 creating database
+2022/07/08 15:35:18:858 database created
+2022/07/08 15:35:18:858 database loaded
+2022/07/08 15:35:59:544 loaded launcher.node
+2022/07/08 15:35:59:582 electron ready
+2022/07/08 15:35:59:586 local express server setup
+2022/07/08 15:35:59:600 updaterWindow created
+2022/07/08 15:35:59:600 updaterWindow remote enabled
+2022/07/08 15:35:59:600 updater file exists
+2022/07/08 15:35:59:606 updaterWindow listeners registered
+2022/07/08 15:35:59:606 initializing main window.
+2022/07/08 15:35:59:606 creating main window with settings {
+  title: 'Badlion Client',
+  backgroundColor: '#38434d',
+  resizable: true,
+  minWidth: 1200,
+  minHeight: 850,
+  width: 1200,
+  height: 1000,
+  show: false,
+  frame: false,
+  titleBarStyle: 'default',
+  webPreferences: { nodeIntegration: true, devTools: false, contextIsolation: false },
+  icon: '/opt/BadlionClient/resources/app.asar/app/64x64.png'
+}
+2022/07/08 15:35:59:609 main window created
+2022/07/08 15:35:59:609 main window remote enabled
+2022/07/08 15:35:59:609 loading main window url /opt/BadlionClient/resources/app.asar/app/app.html
+2022/07/08 15:35:59:612 main window url loaded.
+2022/07/08 15:35:59:612 main window initialized.
+2022/07/08 15:35:59:612 old microsoft cookies removed
+2022/07/08 15:35:59:704 remote-get-builtin app
+2022/07/08 15:35:59:705 remote-require ./background
+2022/07/08 15:35:59:706 remote-get-builtin app
+2022/07/08 15:35:59:706 remote-require ./background
+2022/07/08 15:35:59:873 updater dom is ready to show
+2022/07/08 15:35:59:874 init auto updater
+2022/07/08 15:35:59:874 initializing autoupdater.
+2022/07/08 15:35:59:875 check for updates
+2022/07/08 15:35:59:875 Checking for update
+2022/07/08 15:35:59:875 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/08 15:35:59:876 checking-for-update sent to active window.
+2022/07/08 15:35:59:876 autoupdater initialized.
+2022/07/08 15:35:59:881 Generated new staging user ID: 94b282a4-b493-5adb-9ebe-211cd5700f28
+2022/07/08 15:35:59:893 updater window is ready to show
+2022/07/08 15:36:00:067 remote-require process
+2022/07/08 15:36:00:210 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/08 15:36:00:210 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/08 15:36:00:210 update-not-available sent to active window.
+2022/07/08 15:36:00:210 finish check for updates {
+  versionInfo: {
+    version: '3.8.0',
+    files: [
+      {
+        url: 'BadlionClient',
+        sha512: 'Vc/nbfFOA6VpX/S3MBqTGbLvy+ZY3lKA1Jp0gSDHYzcaqUNCYlPK2/r89tN+SotYmhzoXw43yYWfXnWirDX8NA==',
+        size: 161694665,
+        blockMapSize: 168925
+      }
+    ],
+    path: 'BadlionClient',
+    sha512: 'Vc/nbfFOA6VpX/S3MBqTGbLvy+ZY3lKA1Jp0gSDHYzcaqUNCYlPK2/r89tN+SotYmhzoXw43yYWfXnWirDX8NA==',
+    releaseDate: '2022-04-07T09:29:56.339Z'
+  }
+}
+2022/07/08 15:36:00:211 no update available at this time
+2022/07/08 15:36:00:216 isJavaUpdate called.
+2022/07/08 15:36:40:848 checkForJavaVersion called. res:  0
+2022/07/08 15:36:44:457 remote-require ./background
+2022/07/08 15:36:44:459 path to icon /opt/BadlionClient/resources/app.asar/app/small/small.png
+2022/07/08 15:36:44:465 main window shown.
+[2022-07-09 09:16:55.625] [silly] background.js loaded.
+2022/07/09 09:16:55:629 loading database
+2022/07/09 09:16:55:629 creating database
+2022/07/09 09:16:55:671 database created
+2022/07/09 09:16:55:671 database loaded
+2022/07/09 09:17:00:204 loaded launcher.node
+2022/07/09 09:17:00:263 electron ready
+2022/07/09 09:17:00:265 local express server setup
+2022/07/09 09:17:00:311 updaterWindow created
+2022/07/09 09:17:00:312 updaterWindow remote enabled
+2022/07/09 09:17:00:312 updater file exists
+2022/07/09 09:17:00:319 updaterWindow listeners registered
+2022/07/09 09:17:00:319 initializing main window.
+2022/07/09 09:17:00:319 creating main window with settings {
+  title: 'Badlion Client',
+  backgroundColor: '#38434d',
+  resizable: true,
+  minWidth: 1200,
+  minHeight: 850,
+  width: 1200,
+  height: 1000,
+  show: false,
+  frame: false,
+  titleBarStyle: 'default',
+  webPreferences: { nodeIntegration: true, devTools: false, contextIsolation: false },
+  icon: '/opt/BadlionClient/resources/app.asar/app/64x64.png'
+}
+2022/07/09 09:17:00:323 main window created
+2022/07/09 09:17:00:323 main window remote enabled
+2022/07/09 09:17:00:324 loading main window url /opt/BadlionClient/resources/app.asar/app/app.html
+2022/07/09 09:17:00:327 main window url loaded.
+2022/07/09 09:17:00:327 main window initialized.
+2022/07/09 09:17:00:327 old microsoft cookies removed
+2022/07/09 09:17:00:425 remote-get-builtin app
+2022/07/09 09:17:00:427 remote-require ./background
+2022/07/09 09:17:00:427 remote-get-builtin app
+2022/07/09 09:17:00:428 remote-require ./background
+2022/07/09 09:17:00:610 updater dom is ready to show
+2022/07/09 09:17:00:611 init auto updater
+2022/07/09 09:17:00:611 initializing autoupdater.
+2022/07/09 09:17:00:612 check for updates
+2022/07/09 09:17:00:612 Checking for update
+2022/07/09 09:17:00:613 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:17:00:613 checking-for-update sent to active window.
+2022/07/09 09:17:00:613 autoupdater initialized.
+2022/07/09 09:17:00:638 updater window is ready to show
+2022/07/09 09:17:00:795 remote-require process
+2022/07/09 09:17:00:802 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:17:00:802 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:17:00:803 update-not-available sent to active window.
+2022/07/09 09:17:00:803 finish check for updates {
+  versionInfo: {
+    version: '3.8.0',
+    files: [
+      {
+        url: 'BadlionClient',
+        sha512: 'Vc/nbfFOA6VpX/S3MBqTGbLvy+ZY3lKA1Jp0gSDHYzcaqUNCYlPK2/r89tN+SotYmhzoXw43yYWfXnWirDX8NA==',
+        size: 161694665,
+        blockMapSize: 168925
+      }
+    ],
+    path: 'BadlionClient',
+    sha512: 'Vc/nbfFOA6VpX/S3MBqTGbLvy+ZY3lKA1Jp0gSDHYzcaqUNCYlPK2/r89tN+SotYmhzoXw43yYWfXnWirDX8NA==',
+    releaseDate: '2022-04-07T09:29:56.339Z'
+  }
+}
+2022/07/09 09:17:00:803 no update available at this time
+2022/07/09 09:17:00:816 isJavaUpdate called.
+2022/07/09 09:17:02:372 checkForJavaVersion called. res:  0
+2022/07/09 09:17:05:873 remote-require ./background
+2022/07/09 09:17:05:876 path to icon /opt/BadlionClient/resources/app.asar/app/small/small.png
+2022/07/09 09:17:05:879 main window shown.
+2022/07/09 09:18:06:759 microsoft redirect url https://login.live.com/oauth20_desktop.srf?code=M.R3_BL2.1ba12cea-eeb0-d2cd-fd2f-5624b20fc93f&lc=1051
+2022/07/09 09:18:06:759 old microsoft cookies removed
+2022/07/09 09:22:00:979 remote-require ./background
+2022/07/09 09:22:00:980 Checking for update
+2022/07/09 09:22:00:980 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:22:00:980 checking-for-update sent to active window.
+2022/07/09 09:22:01:162 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:22:01:162 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:22:01:162 update-not-available sent to active window.
+2022/07/09 09:27:00:982 remote-require ./background
+2022/07/09 09:27:00:983 Checking for update
+2022/07/09 09:27:00:983 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:27:00:984 checking-for-update sent to active window.
+2022/07/09 09:27:01:138 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:27:01:138 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:27:01:138 update-not-available sent to active window.
+2022/07/09 09:32:00:995 remote-require ./background
+2022/07/09 09:32:00:996 Checking for update
+2022/07/09 09:32:00:996 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:32:00:996 checking-for-update sent to active window.
+2022/07/09 09:32:17:462 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:32:17:462 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:32:17:462 update-not-available sent to active window.
+2022/07/09 09:33:54:263 checkForJarUpdates called: uuid, res:  a4ca39a8-cc28-4e27-9fcc-f0a2448817f1 0
+2022/07/09 09:33:57:891 launchClient called: res:  0
+2022/07/09 09:37:00:997 remote-require ./background
+2022/07/09 09:37:00:998 Checking for update
+2022/07/09 09:37:00:999 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:37:00:999 checking-for-update sent to active window.
+2022/07/09 09:37:01:138 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:37:01:139 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:37:01:139 update-not-available sent to active window.
+2022/07/09 09:42:00:997 remote-require ./background
+2022/07/09 09:42:00:998 Checking for update
+2022/07/09 09:42:00:998 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:42:00:998 checking-for-update sent to active window.
+2022/07/09 09:42:01:239 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:42:01:240 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:42:01:240 update-not-available sent to active window.
+2022/07/09 09:47:00:998 remote-require ./background
+2022/07/09 09:47:00:998 Checking for update
+2022/07/09 09:47:00:999 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:47:00:999 checking-for-update sent to active window.
+2022/07/09 09:47:01:123 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:47:01:123 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:47:01:123 update-not-available sent to active window.
+2022/07/09 09:52:00:971 remote-require ./background
+2022/07/09 09:52:00:971 Checking for update
+2022/07/09 09:52:00:972 autoUpdater checking-for-update received, sending checking-for-update to active window.
+2022/07/09 09:52:00:972 checking-for-update sent to active window.
+2022/07/09 09:52:01:107 Update for version 3.8.0 is not available (latest version: 3.8.0, downgrade is disallowed).
+2022/07/09 09:52:01:107 autoUpdater update-not-available received, sending update-not-available to active window.
+2022/07/09 09:52:01:107 update-not-available sent to active window.
+2022/07/09 09:53:30:859 remote-require ./background
+2022/07/09 09:53:30:860 handleShutdown called
+2022/07/09 09:53:30:883 window-all-closed received, quitting.
+2022/07/09 09:53:30:884 before-quit received
+2022/07/09 09:53:30:884 will-quit received, quitting.

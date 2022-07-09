@@ -1,0 +1,29 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10c2d4c4b8000165728798200000009940004
+clientId2=10c2d4c4b8000165728734700000009920012
+clientId3=10c2d4c4b8000165728809900000009940005
+clientId4=10c2d4c4b8000165734672800000009890005
+count=4
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_10c2d4c4b8000165728734700000009920012_1657347233_844836
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/konsole
+program3=/usr/bin/polymc
+program4=firefox
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10c2d4c4b8000165728798200000009940004_1657347233_844827
+restartCommand2=/usr/bin/konsole,-session,10c2d4c4b8000165728734700000009920012_1657347233_844836
+restartCommand3=/usr/bin/polymc,-session,10c2d4c4b8000165728809900000009940005_1657347233_844911
+restartCommand4=/usr/lib/firefox/firefox,--sm-client-id,10c2d4c4b8000165734672800000009890005
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=matus
+userId2=matus
+userId3=matus
+userId4=matus

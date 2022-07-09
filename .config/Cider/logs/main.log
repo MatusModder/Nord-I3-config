@@ -1,0 +1,78 @@
+[2022-07-09 09:26:32.410] [info]  [AppEvents] App started
+[2022-07-09 09:26:32.653] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2022-07-09 09:26:32.777] [info]  [AppEvents] App ready
+[2022-07-09 09:26:32.778] [info]  [Cider] Application is Ready. Creating Window.
+[2022-07-09 09:26:33.669] [info]  Setting up handlers for local files
+[2022-07-09 09:26:33.671] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2022-07-09 09:26:33.691] [info]  WebSocketServer started on port: 26369
+[2022-07-09 09:26:33.695] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'updated',
+    version: '4.10.2391.0'
+  }
+}
+[2022-07-09 09:26:33.717] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    softwareRendering: false,
+    subpixelFontRendering: true,
+    videoDecodeAcceleratorFlags: 0,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 8644,
+      driverVendor: 'Nvidia',
+      driverVersion: '515.57',
+      vendorId: 4318
+    }
+  ]
+}
+[2022-07-09 09:26:33.718] [info]  From here can you check for real changes, the initial scan has been completed.
+[2022-07-09 09:26:33.718] [info]  Cider client port: 9000
+[2022-07-09 09:26:33.720] [info]  Cider remote port: 6942
+[2022-07-09 09:26:33.721] [info]  remote broadcasted
+[2022-07-09 09:26:35.717] [info]  folders []
+[2022-07-09 09:27:27.840] [error] [lastfm.js] An error was encountered: Error: Attempted to register a second handler for 'lastfm:url'
+[2022-07-09 09:27:27.840] [error] Error: Attempted to register a second handler for 'lastfm:url'
+    at IpcMainImpl.handle (node:electron/js2c/browser_init:193:337)
+    at lastfm.onReady (/opt/Cider/resources/app.asar/src/main/plugins/lastfm.ts:40:34)
+    at Plugins.callPlugins (/opt/Cider/resources/app.asar/src/main/base/plugins.ts:108:52)
+    at BrowserWindow.<anonymous> (/opt/Cider/resources/app.asar/src/main/index.ts:56:23)
+    at BrowserWindow.emit (node:events:390:28)
+    at BrowserWindow.emit (node:domain:475:12)
+    at BrowserWindow.emitter.emit (/opt/Cider/resources/app.asar/node_modules/@sentry/electron/src/main/integrations/electron-breadcrumbs.ts:200:14)
+    at node:electron/js2c/browser_init:165:13726
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-07-09 09:27:28.660] [info]  folders []
+[2022-07-09 09:27:42.208] [info]  sc  00002358 00002000 0000B60F 0000B5B5 0000B8AC 0002C41E 00007BBC 00007BBB 000366EE 000390ED
+[2022-07-09 09:33:18.082] [info]  sc  00000849 000007CF 00009ED0 00009721 0000E208 00010A37 00008000 00008000 000076E9 0000738E
+[2022-07-09 09:33:18.172] [info]  sc  00001506 00001413 00006140 00006C60 0001B78C 0001B303 00007FDF 00007FDF 000104F4 00010369
+[2022-07-09 09:38:10.514] [info]  sc  00002AE2 00002AF3 0000EC83 0000F753 0001FD06 00020BB8 00008000 00008000 000098D6 0000961D
+[2022-07-09 09:41:03.725] [info]  sc  00001DBD 00001C90 0000AC2B 0000AB8B 00039C72 00030C3A 00008000 00008000 00007A8A 00004F75
+[2022-07-09 09:45:20.390] [info]  sc  000024E9 0000237F 00012249 00012C31 0001273D 0001394A 00007E91 00007E90 0001F224 000052A1
+[2022-07-09 09:48:08.967] [info]  Client ca0c26cb-0c03-4e12-bbfa-fa40efc76471 connected
+[2022-07-09 09:48:58.887] [info]  sc  00003386 000034F1 00017F97 0001436E 000177C8 0002FBB8 00008000 00008000 000002A1 000002A1
+[2022-07-09 09:52:44.400] [info]  sc  000014E1 00001480 000098A7 000095FC 0000F174 00022FBA 00007BC5 00007BC9 000118D1 000102DE
+[2022-07-09 09:55:44.090] [info]  sc  000027F0 00002895 00013D2A 0001555E 0001E18B 0002C978 00008000 00008000 00003FAC 00004734

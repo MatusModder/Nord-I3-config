@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/matus/set-kb-layout.sh
+Icon=dialog-scripts
+Name=set-kb-layout.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true
